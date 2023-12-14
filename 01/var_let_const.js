@@ -1,5 +1,7 @@
 console.log("JS tutorial 3");
-var a = 45;
+let a = 45;
+a = 43;
+console.log(a)
 var b = "Chinmay";
 console.log(b);
 
