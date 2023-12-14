@@ -24,3 +24,10 @@ switch (age) {
         break;
     default: console.log("your age is not special");
 }
+
+let num = 4;
+if(num%2==0 && num%4==0 ){
+    console.log("Your number is divisible by 2 & 4");
+}else{
+    console.log("your number is not divisible by 2 & 4")
+}
