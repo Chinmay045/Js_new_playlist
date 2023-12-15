@@ -9,3 +9,6 @@ let f1 = "pramod";
 let f2 = "Server";
 let friend = `${f1} is  a friend of ${f2} !!`
 console.log(friend)
+
+let fruit = "Bana\"na\"";
+console.log(fruit)
