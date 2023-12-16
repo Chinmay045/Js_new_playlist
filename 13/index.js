@@ -7,3 +7,7 @@ console.log(marks[4]);
 console.log(marks.length);
 marks[2] = 67;
 console.log(marks)
+
+for(let i = 0; i< marks.length; i++){
+    console.log(marks[i]);
+}
