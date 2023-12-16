@@ -1,7 +1,11 @@
 let name = "Chinmay";
 console.log(name.length);
 
-console.log(name.toUpperCase());
-console.log(name.slice(2,5));
-console.log(name.replace("Chinmay","Naina"));
-console.log(name.replace("Naina","Chinmay"));
+// console.log(name.toUpperCase());
+// console.log(name.slice(2,5));
+// console.log(name.replace("Chinmay","Naina"));
+// console.log(name.replace("Naina","Chinmay"));
+
+const friend = "Shalini";
+
+console.log(name.concat(" is a friend of " + friend));
