@@ -8,4 +8,7 @@ console.log(name.length);
 
 const friend = "Shalini";
 
-console.log(name.concat(" is a friend of " + friend));
+// console.log(name.concat(" is a friend of " + friend));
+
+const friend1 = "   Meena   ";
+console.log(friend1.trim());
