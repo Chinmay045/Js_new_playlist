@@ -8,4 +8,6 @@ let amount = Number.parseInt(str.slice(15));
 str[0] = "c";
 str = "Please"
 console.log(str)
-console.log( typeof amount);
+console.log(typeof amount);
+
+
