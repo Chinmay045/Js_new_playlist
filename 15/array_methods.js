@@ -24,8 +24,15 @@ let num = [6, 7, 8, 91, 2, 3, 4, 5];
 //     console.log(num[i]);
 // }
 
-num.forEach((Element) =>{
-console.log(Element* Element)
-});
+// num.forEach((Element) =>{
+// console.log(Element* Element)
+// });
+
+// for(let i in num){
+//     console.log(num[i]);
+// }
+for (let i of num) {
+    console.log(i);
+}
 
 
