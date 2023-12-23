@@ -5,3 +5,4 @@ let write = confirm("Do you wnat to write it to the page");
 document.write(write);
 
 console.log(window);
+console.log(window);
