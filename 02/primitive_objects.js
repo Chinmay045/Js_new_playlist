@@ -18,5 +18,11 @@ const item = {
     city: "Bengaluru"
 }
 
+const item1 = {
+    name: "Bha",
+    city: "Bengaluru"
+}
+
+
 console.log(item);
 
