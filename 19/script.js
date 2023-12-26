@@ -5,3 +5,4 @@ console.log(b.firstElementChild);
 let changeBodyRed = () => {
     document.body.firstElementChild.style.color = "red";
 }
+
