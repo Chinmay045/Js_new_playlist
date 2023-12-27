@@ -23,3 +23,4 @@ ctitle.style.color = "red";
 
 let card = document.getElementById("first-card");
 card.style.color = "yellow";
+console.log(document.getElementsByName("search"));
