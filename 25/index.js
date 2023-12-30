@@ -4,3 +4,4 @@ let attr = document.getElementsByTagName("div")[1];
 let div = document.createElement("div");
 div.innerHTML = "<h1>Hello World</h1>";
 attr.prepend(div);
+attr.remove()
