@@ -32,6 +32,11 @@ for(let i = 0; i<listItems.length; i++){
     listItems[i].style.fontSize = "2rem"; 
 }
 
+const li = document.querySelector("ul")
+const ul = document.createElement("div");
+li.appendChild(ul);
+// console.log(li)
+
 const heading = document.getElementById("main-heading");
 heading.style.color = "red";
 console.log(heading);
