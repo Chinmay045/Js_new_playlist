@@ -27,3 +27,6 @@ sports.appendChild(newSport)
 
 const listItems = document.getElementsByTagName("li")
 console.log(listItems);
+
+const query = document.querySelector("div");
+console.log(query);
