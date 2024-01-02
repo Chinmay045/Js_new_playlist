@@ -38,9 +38,10 @@ li.appendChild(ul);
 // console.log(li)
 
 ul.innerText = "X-Menn";
-
-// ul.setAttribute("id", "main-heading");
-// ul.removeAttribute("id")
+ul.setAttribute("id", "main-heading");
+ul.classList.remove("list-items");
+console.log(ul.classList.contains("list-items"));
+ul.removeAttribute("id")
 
 const heading = document.getElementById("main-heading");
 console.log(heading.getAttribute('id'));
