@@ -22,7 +22,7 @@ switch (age) {
     case 18:
         console.log("Your age is 18")
         break;
-    default: console.log("your age is not special");
+    default: console.log("your age is not speciall");
 }
 
 let num = 4;
