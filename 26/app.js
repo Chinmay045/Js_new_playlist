@@ -42,6 +42,7 @@ ul.setAttribute("id", "main-heading");
 ul.classList.remove("list-items");
 console.log(ul.classList.contains("list-items"));
 ul.removeAttribute("id")
+ul.remove();/
 
 const heading = document.getElementById("main-heading");
 console.log(heading.getAttribute('id'));
