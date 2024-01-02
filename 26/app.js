@@ -28,5 +28,9 @@ sports.appendChild(newSport)
 const listItems = document.getElementsByTagName("li")
 console.log(listItems);
 
+const heading = document.getElementById("main-heading");
+heading.style.color = "red";
+console.log(heading);
+
 const query = document.querySelector("div");
 console.log(query);
