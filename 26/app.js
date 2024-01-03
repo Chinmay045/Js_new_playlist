@@ -4,16 +4,16 @@
 
 
 
-document.querySelector('#sports').addEventListener('click', function (e) {
+// document.querySelector('#sports').addEventListener('click', function (e) {
 
-    console.log(e.target.id + " is clicked");
+//     console.log(e.target.id + " is clicked");
 
-    const target = e.target;
+//     const target = e.target;
 
-    if (target.matches('li')) {
-        target.style.backgroundColor = 'lightgrey'
-    }
-});
+//     if (target.matches('li')) {
+//         target.style.backgroundColor = 'lightgrey'
+//     }
+// });
 
 
 const sports = document.querySelector('#sports');
@@ -37,25 +37,54 @@ const ul = document.createElement("div");
 li.appendChild(ul);
 // console.log(li)
 
-ul.innerText = "X-Menn";
-ul.setAttribute("id", "main-heading");
-ul.classList.remove("list-items");
-console.log(ul.classList.contains("list-items"));
-ul.removeAttribute("id")
-ul.remove();/
+// ul.innerText = "X-Menn";
+// ul.setAttribute("id", "main-heading");
+// ul.classList.remove("list-items");
+// console.log(ul.classList.contains("list-items"));
+// ul.removeAttribute("id")
+// ul.remove();
 
-const heading = document.getElementById("main-heading");
-console.log(heading.getAttribute('id'));
-// heading.style.color = "red";
+// const heading = document.getElementById("main-heading");
+// console.log(heading.getAttribute('id'));
+// // heading.style.color = "red";
 // console.log(heading);
 
-const query = document.querySelector("div");
-// console.log(query);
+// const query = document.querySelector("ul");
+// console.log(query.childNodes[3].style.backgroundColor = "red");
+// console.log(query.parentElement.parentElement);
+// console.log(query.children[2].style.backgroundColor = "blue");
+// console.log(query.previousElementSibling);
+// console.log(query.nextElementSibling);
+
 
 // const list = document.querySelector(".list-items");
 // console.log(list.innerHTML);
 // console.log(list.innerText);
 // console.log(list.textContent);
 
+document.querySelector("#football").addEventListener("click", function (e) {
+    console.log("football is clicked");
+
+    const target = e.target;
+
+    if (target.matches("li")) {
+        target.style.backgroundColor = "yellow";
+    }
+})
+
+document.querySelector('#basketball').addEventListener("click", function (e) {
+    console.log("basketball is clicked");
+
+    const target = e.target.style.backgroundColor = "red";
+    // if (target.matches("li")) {
+    //     target.style.backgroundColor = "red";
+    // }
+});
+
+document.querySelector("#boxing").addEventListener("click", function (e) {
+    console.log("boxing is clicked");
+
+    const target = e.target.style.backgroundColor = "green";
+})
 
 
