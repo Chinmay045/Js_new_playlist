@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Krub&family=Nunito&family=Poppins&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(./img/img01.jpg);
+}
+
+.text-area {
+    padding: 2rem;
+}
+
+.container {
+    border: 1rem solid black;
+    padding: 3rem;
+}
+
+.button-area{
+padding: 1rem;
+}

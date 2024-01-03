@@ -4,16 +4,16 @@
 
 
 
-// document.querySelector('#sports').addEventListener('click', function (e) {
+document.querySelector('#sports').addEventListener('click', function (e) {
 
-//     console.log(e.target.id + " is clicked");
+    console.log(e.target.id + " is clicked");
 
-//     const target = e.target;
+    const target = e.target.style.backgroundColor = 'lightgrey';
 
-//     if (target.matches('li')) {
-//         target.style.backgroundColor = 'lightgrey'
-//     }
-// });
+    // if (target.matches('li')) {
+    //     target.style.backgroundColor = 'lightgrey'
+    // }
+});
 
 
 const sports = document.querySelector('#sports');
@@ -81,10 +81,11 @@ document.querySelector('#basketball').addEventListener("click", function (e) {
     // }
 });
 
-document.querySelector("#boxing").addEventListener("click", function (e) {
-    console.log("boxing is clicked");
+const sport = document.querySelector("#sports");
+const newSpor = document.createElement("li");
 
-    const target = e.target.style.backgroundColor = "green";
-})
+newSpor.innerText = 'rughby';
+newSpor.setAttribute('id', 'rughby');
 
+sport.appendChild(newSpor);
 
