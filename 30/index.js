@@ -6,11 +6,14 @@
 //     console.log("run after every 2 seconds");
 // }, 2000);
 
-var butn = document.getElementById('btn');
-butn.addEventListener('click', function (e) {
-    console.log("hi macha")
-    console.log(butn.id);
-    console.log(e.target);
-})
+// var butn = document.getElementById('btn');
+// butn.addEventListener('click', function (e) {
+//     console.log("hi macha")
+//     console.log(butn.id);
+//     console.log(e.target);
+
+// })
+
+// console.log(butn.removeEventListener())
 
 
