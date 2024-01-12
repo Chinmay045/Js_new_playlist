@@ -17,3 +17,6 @@
 // console.log(butn.removeEventListener())
 
 
+let btn = document.getElementById('google').addEventListener(function () {
+
+});
