@@ -17,6 +17,7 @@
 // console.log(butn.removeEventListener())
 
 
-let btn = document.getElementById('google').addEventListener(function () {
+// let btn = document.getElementById('google').addEventListener(function () {
+//     btn.innerText = 'hi';
+// });
 
-});
