@@ -24,3 +24,4 @@ promise.then((value) => {
 promise1.then((value) => {
     console.log(value)
 })
+
