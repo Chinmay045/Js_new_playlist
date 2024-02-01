@@ -1,4 +1,8 @@
 class Employee {
+    constructor(name) {
+        console.log(`${name} this is employee contructor`);
+        this.name = name;
+    }
     login() {
         console.log('Employee has logged in');
     }
@@ -24,6 +28,6 @@ class Programmer extends Employee {
 }
 
 // let e = new Employee();
-let e = new Programmer();
+let e = new Programmer("chinz");
 e.login()
 e.requestLeaves(3);
